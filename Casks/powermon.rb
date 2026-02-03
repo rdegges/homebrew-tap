@@ -3,7 +3,7 @@ cask "powermon" do
   name "powermon"
   desc "Cross-platform power consumption monitor with interactive terminal UI"
   homepage "https://github.com/rdegges/powermon"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "powermon" do
   on_macos do
     on_intel do
       url "https://github.com/rdegges/powermon/releases/download/v#{version}/powermon_#{version}_darwin_amd64.tar.gz"
-      sha256 "99747e7bfc92f3b995cf1fc00a75885107c661c7349dd89127a5f439e322d185"
+      sha256 "fe6025b236863263cf91858ed9928acd3a7fa1e48376b8a9a153c9a5fa7d3df4"
     end
     on_arm do
       url "https://github.com/rdegges/powermon/releases/download/v#{version}/powermon_#{version}_darwin_arm64.tar.gz"
-      sha256 "c35f73203d3839a3342b60cc74cc16f1997a481801107463fdf016264a9bf383"
+      sha256 "980b830e8a2d9c54ea8c88a38d9932c75a99f3b717eca02dd58a175c786a935a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/rdegges/powermon/releases/download/v#{version}/powermon_#{version}_linux_amd64.tar.gz"
-      sha256 "9a996cdadbb0fd5b93bba278ced4bf71ea4b17bfe5645c526b33712d5fa0931d"
+      sha256 "ec0884212ddd69ebeb54e0fa4f733143bd7b300f4463efcf7a8520d44f45e285"
     end
     on_arm do
       url "https://github.com/rdegges/powermon/releases/download/v#{version}/powermon_#{version}_linux_arm64.tar.gz"
-      sha256 "42b758d8131a00e01bb5634722544aa5f8a0a3c4402e205b63bd8fe06a5abdeb"
+      sha256 "558976c8f3156f899efe1913582a714b514f21591f35660b9f25c4c6e7d3ed3c"
     end
   end
 
